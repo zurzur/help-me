@@ -6,10 +6,11 @@ module.exports = function count(s, pairs) {
     }
 }
 const MOD = 1000000007;
-//mock against blob -- don't work -- ???
+//mock against blob 
 if (pairs[0][1] < 100) {
 
 //period -- looks like partcular amount of coprimes for the period don't work
+ //at least for test #2 with 3 in power 1000 000 000
 let C = 1;
 for (let i = 0, length = pairs.length; i < length; i++) {
 
